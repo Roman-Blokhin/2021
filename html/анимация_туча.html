@@ -1,0 +1,258 @@
+<html>
+    <body>
+        <!-- можно сделать анимированную тучу, самолет,сбрасывающий бомбу, нло, закат, затмение, зима, зажигается свет в домах вечером и гаснет утром
+        можно сделать разные цветы, у каждого цветка свой размер, разная сердцевинка-->
+        <svg width="400" height="300">
+            <!-- небо -->
+            <rect width="410" height="200" fill="blue">
+                <animate attributeName="fill" from="DarkSlateGray" to="SkyBlue" dur="6s" fill="freeze" repeatCount="2000" />
+            </rect>
+                
+            <!-- Солнце -->
+            <circle cx="35" cy="35" r="50" fill="yellow">
+                <animate attributeName="cy" from="300" to="40" dur="6s" fill="freeze" repeatCount="indefinite" value="  20; 100; 30"/>
+                <animate attributeName="cx" from="1000" to="60" dur="6s" fill="freeze" repeatCount="indefinite" value="  20; 100; 30"/>
+                <!-- меняет цвет -->
+                <animate attributeName="fill" from="red" to="yellow" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+                
+            <!-- трава -->
+            <ellipse cx="190" cy="230" rx="90" ry="70" style="fill: green">
+                <animate attributeName="rx" from="230" to="500" dur="6s" fill="freeze" repeatCount="indefinite" />
+                <animate attributeName="fill" from="DarkOliveGreen	" to="green" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            
+            <!-- облако -->
+            <ellipse cx="100" cy="60" rx="62" ry="30" style="fill: #4682B4">
+                <animate attributeName="cx" from="20" to="600" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="100" cy="40" rx="32" ry="30" style="fill: #808080">
+                <animate attributeName="cx" from="10" to="600" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="100" cy="60" rx="72" ry="40" style="fill: #778899">
+                <animate attributeName="cx" from="90" to="600" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="100" cy="80" rx="40" ry="25" style="fill: #A9A9A9">
+                <animate attributeName="cx" from="60" to="600" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="140" cy="60" rx="42" ry="30" style="fill: #5F9EA0">
+                <animate attributeName="cx" from="150" to="600" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            
+            <!-- капли -->
+            <ellipse cx="145" cy="30" rx="5" ry="10" style="fill: #0080a9">
+                <animate attributeName="cy" from="100" to="1350" dur="6.2s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="165" cy="30" rx="6" ry="10" style="fill: #0080a9">
+                <animate attributeName="cy" from="50" to="1350" dur="6.1s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="195" cy="30" rx="4" ry="9" style="fill: #0080a9">
+                <animate attributeName="cy" from="100" to="1350" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="225" cy="30" rx="5" ry="11" style="fill: #0080a9">
+                <animate attributeName="cy" from="50" to="1350" dur="6.1s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            <ellipse cx="245" cy="30" rx="6" ry="12" style="fill: #0080a9">
+                <animate attributeName="cy" from="100" to="1350" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </ellipse>
+            
+            <!-- цветок 1 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="80" cy="200" r="10" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="95" cy="185" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="95" cy="215" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="110" cy="200" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="95" cy="200" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="12" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="95" cy="200" r="50" fill="red">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 2 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="180" cy="250" r="10" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="195" cy="235" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="195" cy="265" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="210" cy="250" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="195" cy="250" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="12" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="195" cy="250" r="50" fill="red">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 3 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="260" cy="170" r="10" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="275" cy="155" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="275" cy="185" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="290" cy="170" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="15" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="275" cy="170" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="12" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="275" cy="170" r="50" fill="red">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+                
+            <!-- цветок 4 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="365" cy="250" r="10" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="375" cy="240" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="375" cy="260" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="385" cy="250" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="375" cy="250" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="9" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="375" cy="250" r="50" fill="black">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 5 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="215" cy="190" r="10" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="225" cy="180" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="225" cy="200" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="235" cy="190" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="225" cy="190" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="9" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="225" cy="190" r="50" fill="black">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 6 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="65" cy="270" r="10" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="75" cy="260" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="75" cy="280" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="85" cy="270" r="50" fill="white">
+                <animate attributeName="r" from="0" to="10" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="75" cy="270" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="9" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="75" cy="270" r="50" fill="black">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 7 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="15" cy="220" r="10" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="25" cy="210" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="25" cy="230" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="35" cy="220" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="25" cy="220" r="50" fill="red">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="25" cy="220" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="5" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 8
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="135" cy="170" r="10" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="145" cy="160" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="145" cy="180" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="155" cy="170" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="145" cy="170" r="50" fill="red">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="145" cy="170" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="5" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- цветок 8 
+            cy - высота от пола
+            cx - расстояние слева от края -->
+            <circle cx="315" cy="240" r="10" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="325" cy="230" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="325" cy="250" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="335" cy="240" r="50" fill="darkorange">
+                <animate attributeName="r" from="0" to="8" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="325" cy="240" r="50" fill="red">
+                <animate attributeName="r" from="0" to="7" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+            <circle cx="325" cy="240" r="50" fill="yellow">
+                <animate attributeName="r" from="0" to="5" dur="6s" fill="freeze" repeatCount="indefinite" />
+            </circle>
+        </svg>
+    </body>
+</html>
