@@ -45,6 +45,7 @@ while True:
         imt = 0
         
     imt = round (imt , 2) # сокращаем индекс до сотых
+    time.sleep (1.5)
     print ("Индекс массы тела равен: " + str (imt))
 
     print ("\nВаш результат: ")
